@@ -1,0 +1,67 @@
+artifact_path: mlflow-artifacts:/2/models/m-3327895f289940d28a3d98023f9d5ce9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.10.1
+model_id: m-3327895f289940d28a3d98023f9d5ce9
+model_size_bytes: 76438
+model_uuid: m-3327895f289940d28a3d98023f9d5ce9
+prompts: null
+run_id: 4e0b2c1b7a5d4bba8e7100f7c2ad7a90
+signature:
+  inputs: '[{"type": "long", "name": "tenure", "required": true}, {"type": "double",
+    "name": "MonthlyCharges", "required": true}, {"type": "double", "name": "TotalCharges",
+    "required": true}, {"type": "boolean", "name": "Contract_Month-to-month", "required":
+    true}, {"type": "boolean", "name": "Contract_One year", "required": true}, {"type":
+    "boolean", "name": "Contract_Two year", "required": true}, {"type": "boolean",
+    "name": "Dependents_No", "required": true}, {"type": "boolean", "name": "Dependents_Yes",
+    "required": true}, {"type": "boolean", "name": "DeviceProtection_No", "required":
+    true}, {"type": "boolean", "name": "DeviceProtection_No internet service", "required":
+    true}, {"type": "boolean", "name": "DeviceProtection_Yes", "required": true},
+    {"type": "boolean", "name": "InternetService_DSL", "required": true}, {"type":
+    "boolean", "name": "InternetService_Fiber optic", "required": true}, {"type":
+    "boolean", "name": "InternetService_No", "required": true}, {"type": "boolean",
+    "name": "MultipleLines_No", "required": true}, {"type": "boolean", "name": "MultipleLines_No
+    phone service", "required": true}, {"type": "boolean", "name": "MultipleLines_Yes",
+    "required": true}, {"type": "boolean", "name": "OnlineBackup_No", "required":
+    true}, {"type": "boolean", "name": "OnlineBackup_No internet service", "required":
+    true}, {"type": "boolean", "name": "OnlineBackup_Yes", "required": true}, {"type":
+    "boolean", "name": "OnlineSecurity_No", "required": true}, {"type": "boolean",
+    "name": "OnlineSecurity_No internet service", "required": true}, {"type": "boolean",
+    "name": "OnlineSecurity_Yes", "required": true}, {"type": "boolean", "name": "PaperlessBilling_No",
+    "required": true}, {"type": "boolean", "name": "PaperlessBilling_Yes", "required":
+    true}, {"type": "boolean", "name": "Partner_No", "required": true}, {"type": "boolean",
+    "name": "Partner_Yes", "required": true}, {"type": "boolean", "name": "PaymentMethod_Bank
+    transfer (automatic)", "required": true}, {"type": "boolean", "name": "PaymentMethod_Credit
+    card (automatic)", "required": true}, {"type": "boolean", "name": "PaymentMethod_Electronic
+    check", "required": true}, {"type": "boolean", "name": "PaymentMethod_Mailed check",
+    "required": true}, {"type": "boolean", "name": "PhoneService_No", "required":
+    true}, {"type": "boolean", "name": "PhoneService_Yes", "required": true}, {"type":
+    "boolean", "name": "SeniorCitizen_No", "required": true}, {"type": "boolean",
+    "name": "SeniorCitizen_Yes", "required": true}, {"type": "boolean", "name": "StreamingMovies_No",
+    "required": true}, {"type": "boolean", "name": "StreamingMovies_No internet service",
+    "required": true}, {"type": "boolean", "name": "StreamingMovies_Yes", "required":
+    true}, {"type": "boolean", "name": "StreamingTV_No", "required": true}, {"type":
+    "boolean", "name": "StreamingTV_No internet service", "required": true}, {"type":
+    "boolean", "name": "StreamingTV_Yes", "required": true}, {"type": "boolean", "name":
+    "TechSupport_No", "required": true}, {"type": "boolean", "name": "TechSupport_No
+    internet service", "required": true}, {"type": "boolean", "name": "TechSupport_Yes",
+    "required": true}, {"type": "boolean", "name": "gender_Female", "required": true},
+    {"type": "boolean", "name": "gender_Male", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-03-17 23:36:03.743785'

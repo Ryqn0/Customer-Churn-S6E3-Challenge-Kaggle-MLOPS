@@ -15,3 +15,4 @@ catboost
 dvc
 gradio
 optuna
+seaborn
