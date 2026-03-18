@@ -1,0 +1,2503 @@
+|--- Contract_Month-to-month <= 0.50
+|   |--- InternetService_Fiber optic <= 0.50
+|   |   |--- Contract_Two year <= 0.50
+|   |   |   |--- PaymentMethod_Electronic check <= 0.50
+|   |   |   |   |--- StreamingTV_Yes <= 0.50
+|   |   |   |   |   |--- TotalCharges <= 20.23
+|   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) <= 0.50
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 19.82
+|   |   |   |   |   |   |   |   |--- PaymentMethod_Mailed check <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- PaymentMethod_Mailed check >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MonthlyCharges >  19.82
+|   |   |   |   |   |   |   |   |--- Partner_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- gender_Female <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- gender_Female >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Partner_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 19.98
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  19.98
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) >  0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- TotalCharges >  20.23
+|   |   |   |   |   |   |--- PaperlessBilling_Yes <= 0.50
+|   |   |   |   |   |   |   |--- tenure <= 15.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 1116.25
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 923.83
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  923.83
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  1116.25
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 49.78
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  49.78
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- tenure >  15.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 20.38
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 1442.73
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  1442.73
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  20.38
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 2078.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  2078.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- PaperlessBilling_Yes >  0.50
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 20.52
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 19.07
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  19.07
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Bank transfer (automatic) <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Bank transfer (automatic) >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MonthlyCharges >  20.52
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 49.12
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 49.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  49.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  49.12
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 85.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  85.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- StreamingTV_Yes >  0.50
+|   |   |   |   |   |--- MonthlyCharges <= 94.50
+|   |   |   |   |   |   |--- PhoneService_No <= 0.50
+|   |   |   |   |   |   |   |--- tenure <= 15.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 1266.80
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 73.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  73.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  1266.80
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- tenure >  15.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 3304.95
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 2839.83
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  2839.83
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  3304.95
+|   |   |   |   |   |   |   |   |   |--- tenure <= 62.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  62.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- PhoneService_No >  0.50
+|   |   |   |   |   |   |   |--- OnlineSecurity_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 2407.47
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 2189.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  2189.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  2407.47
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 3552.60
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  3552.60
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- OnlineSecurity_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 5078.88
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 3481.55
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  3481.55
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  5078.88
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- MonthlyCharges >  94.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- PaymentMethod_Electronic check >  0.50
+|   |   |   |   |--- PhoneService_Yes <= 0.50
+|   |   |   |   |   |--- TotalCharges <= 2659.05
+|   |   |   |   |   |   |--- tenure <= 19.50
+|   |   |   |   |   |   |   |--- TotalCharges <= 810.82
+|   |   |   |   |   |   |   |   |--- OnlineBackup_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 12.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- tenure >  12.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- OnlineBackup_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 712.85
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  712.85
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  810.82
+|   |   |   |   |   |   |   |   |--- gender_Male <= 0.50
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- gender_Male >  0.50
+|   |   |   |   |   |   |   |   |   |--- StreamingTV_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- StreamingTV_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- tenure >  19.50
+|   |   |   |   |   |   |   |--- TotalCharges <= 1823.15
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 853.98
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 825.92
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  825.92
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  853.98
+|   |   |   |   |   |   |   |   |   |--- StreamingTV_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- StreamingTV_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  1823.15
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 44.12
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 1981.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  1981.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  44.12
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 2182.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  2182.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- TotalCharges >  2659.05
+|   |   |   |   |   |   |--- OnlineSecurity_No <= 0.50
+|   |   |   |   |   |   |   |--- TotalCharges <= 3935.92
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 54.73
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 3263.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  3263.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  54.73
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 3312.55
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  3312.55
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  3935.92
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- OnlineSecurity_No >  0.50
+|   |   |   |   |   |   |   |--- OnlineBackup_No <= 0.50
+|   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 60.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  60.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 3034.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  3034.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- OnlineBackup_No >  0.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 50.95
+|   |   |   |   |   |   |   |   |   |--- Partner_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Partner_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  50.95
+|   |   |   |   |   |   |   |   |   |--- tenure <= 62.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  62.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- PhoneService_Yes >  0.50
+|   |   |   |   |   |--- tenure <= 11.50
+|   |   |   |   |   |   |--- TechSupport_No <= 0.50
+|   |   |   |   |   |   |   |--- StreamingTV_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 19.80
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  19.80
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- StreamingTV_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- TechSupport_No >  0.50
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 48.92
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- MonthlyCharges >  48.92
+|   |   |   |   |   |   |   |   |--- Partner_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 661.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  661.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Partner_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 9.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- tenure >  9.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- tenure >  11.50
+|   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |--- OnlineSecurity_No <= 0.50
+|   |   |   |   |   |   |   |   |--- tenure <= 28.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 82.70
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  82.70
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- tenure >  28.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 674.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  674.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- OnlineSecurity_No >  0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 1285.00
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 932.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  932.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  1285.00
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 80.92
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  80.92
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |--- TotalCharges <= 4984.47
+|   |   |   |   |   |   |   |   |--- tenure <= 19.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 947.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  947.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- tenure >  19.50
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  4984.47
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 5190.02
+|   |   |   |   |   |   |   |   |   |--- tenure <= 53.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  53.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  5190.02
+|   |   |   |   |   |   |   |   |   |--- tenure <= 69.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  69.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |--- Contract_Two year >  0.50
+|   |   |   |--- PaymentMethod_Electronic check <= 0.50
+|   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |--- MonthlyCharges <= 114.85
+|   |   |   |   |   |   |--- PaperlessBilling_Yes <= 0.50
+|   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |--- StreamingMovies_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 5687.22
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  5687.22
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- StreamingMovies_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 61.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  61.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 94.03
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 5681.68
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  5681.68
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  94.03
+|   |   |   |   |   |   |   |   |   |--- Partner_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Partner_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- PaperlessBilling_Yes >  0.50
+|   |   |   |   |   |   |   |--- PaymentMethod_Bank transfer (automatic) <= 0.50
+|   |   |   |   |   |   |   |   |--- TechSupport_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 23.77
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  23.77
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TechSupport_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 6397.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  6397.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- PaymentMethod_Bank transfer (automatic) >  0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 8058.80
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 80.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  80.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  8058.80
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 90.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  90.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- MonthlyCharges >  114.85
+|   |   |   |   |   |   |--- MonthlyCharges <= 115.08
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- MonthlyCharges >  115.08
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 115.33
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MonthlyCharges >  115.33
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |--- MonthlyCharges <= 96.32
+|   |   |   |   |   |   |--- TotalCharges <= 20.23
+|   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) <= 0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 20.18
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  20.18
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- TotalCharges >  20.23
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 60.38
+|   |   |   |   |   |   |   |   |--- tenure <= 71.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 1405.45
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  1405.45
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- tenure >  71.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MonthlyCharges >  60.38
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 60.43
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  60.43
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 4039.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  4039.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- MonthlyCharges >  96.32
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- PaymentMethod_Electronic check >  0.50
+|   |   |   |   |--- PhoneService_Yes <= 0.50
+|   |   |   |   |   |--- OnlineSecurity_No <= 0.50
+|   |   |   |   |   |   |--- TotalCharges <= 4933.50
+|   |   |   |   |   |   |   |--- TotalCharges <= 3615.32
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  3615.32
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 3707.68
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  3707.68
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 4039.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  4039.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- TotalCharges >  4933.50
+|   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- OnlineSecurity_No >  0.50
+|   |   |   |   |   |   |--- MonthlyCharges <= 56.20
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 45.70
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MonthlyCharges >  45.70
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 48.45
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  48.45
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 55.17
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  55.17
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- MonthlyCharges >  56.20
+|   |   |   |   |   |   |   |--- tenure <= 71.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 58.60
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  58.60
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- tenure >  71.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 4282.48
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  4282.48
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- PhoneService_Yes >  0.50
+|   |   |   |   |   |--- MonthlyCharges <= 25.07
+|   |   |   |   |   |   |--- PaperlessBilling_Yes <= 0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- PaperlessBilling_Yes >  0.50
+|   |   |   |   |   |   |   |--- TotalCharges <= 1253.92
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 1237.73
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  1237.73
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  1253.92
+|   |   |   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- MonthlyCharges >  25.07
+|   |   |   |   |   |   |--- MonthlyCharges <= 26.18
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 25.95
+|   |   |   |   |   |   |   |   |--- tenure <= 45.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 25.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  25.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- tenure >  45.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 1790.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  1790.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MonthlyCharges >  25.95
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- MonthlyCharges >  26.18
+|   |   |   |   |   |   |   |--- TotalCharges <= 4861.68
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 3271.82
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 3216.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  3216.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  3271.82
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 65.15
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  65.15
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  4861.68
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 4869.25
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 82.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  82.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  4869.25
+|   |   |   |   |   |   |   |   |   |--- TechSupport_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TechSupport_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |--- InternetService_Fiber optic >  0.50
+|   |   |--- Contract_Two year <= 0.50
+|   |   |   |--- PaymentMethod_Electronic check <= 0.50
+|   |   |   |   |--- MonthlyCharges <= 95.28
+|   |   |   |   |   |--- MonthlyCharges <= 83.53
+|   |   |   |   |   |   |--- MonthlyCharges <= 79.72
+|   |   |   |   |   |   |   |--- Partner_No <= 0.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 74.92
+|   |   |   |   |   |   |   |   |   |--- tenure <= 46.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  46.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  74.92
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 4374.77
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  4374.77
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Partner_No >  0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 4114.42
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 70.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  70.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  4114.42
+|   |   |   |   |   |   |   |   |   |--- tenure <= 66.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  66.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- MonthlyCharges >  79.72
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 80.42
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MonthlyCharges >  80.42
+|   |   |   |   |   |   |   |   |--- TechSupport_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TechSupport_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- MonthlyCharges >  83.53
+|   |   |   |   |   |   |--- tenure <= 31.50
+|   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) <= 0.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 88.08
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  88.08
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 95.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  95.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) >  0.50
+|   |   |   |   |   |   |   |   |--- DeviceProtection_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- DeviceProtection_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 26.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  26.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- tenure >  31.50
+|   |   |   |   |   |   |   |--- tenure <= 56.50
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 51.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  51.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- tenure >  56.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 7369.18
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 84.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  84.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  7369.18
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- MonthlyCharges >  95.28
+|   |   |   |   |   |--- OnlineSecurity_Yes <= 0.50
+|   |   |   |   |   |   |--- TotalCharges <= 7033.48
+|   |   |   |   |   |   |   |--- tenure <= 55.50
+|   |   |   |   |   |   |   |   |--- MultipleLines_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MultipleLines_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- tenure >  55.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 6315.28
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 105.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  105.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  6315.28
+|   |   |   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- TotalCharges >  7033.48
+|   |   |   |   |   |   |   |--- TotalCharges <= 7447.30
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 7341.00
+|   |   |   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  7341.00
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 7408.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  7408.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- TotalCharges >  7447.30
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 7473.62
+|   |   |   |   |   |   |   |   |   |--- tenure <= 71.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  71.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  7473.62
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 7568.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  7568.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- OnlineSecurity_Yes >  0.50
+|   |   |   |   |   |   |--- TotalCharges <= 7333.42
+|   |   |   |   |   |   |   |--- OnlineBackup_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 1196.30
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  1196.30
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- OnlineBackup_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 114.38
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 114.33
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  114.33
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  114.38
+|   |   |   |   |   |   |   |   |   |--- tenure <= 59.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  59.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- TotalCharges >  7333.42
+|   |   |   |   |   |   |   |--- TotalCharges <= 7383.80
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 7349.07
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 105.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  105.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  7349.07
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 7365.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  7365.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- TotalCharges >  7383.80
+|   |   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 8165.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  8165.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- PaymentMethod_Electronic check >  0.50
+|   |   |   |   |--- StreamingMovies_No <= 0.50
+|   |   |   |   |   |--- TotalCharges <= 7100.25
+|   |   |   |   |   |   |--- tenure <= 42.50
+|   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 4681.85
+|   |   |   |   |   |   |   |   |   |--- tenure <= 24.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- tenure >  24.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  4681.85
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 4077.65
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  4077.65
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 3759.22
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  3759.22
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- tenure >  42.50
+|   |   |   |   |   |   |   |--- OnlineSecurity_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 107.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  107.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 98.55
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  98.55
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- OnlineSecurity_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 101.92
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 7029.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  7029.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  101.92
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 109.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  109.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- TotalCharges >  7100.25
+|   |   |   |   |   |   |--- OnlineSecurity_Yes <= 0.50
+|   |   |   |   |   |   |   |--- SeniorCitizen_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 7345.33
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 7104.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  7104.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  7345.33
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 7369.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  7369.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- SeniorCitizen_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 64.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  64.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 105.43
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  105.43
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- OnlineSecurity_Yes >  0.50
+|   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |--- OnlineBackup_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 7385.65
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  7385.65
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- OnlineBackup_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 114.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  114.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 8258.95
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 7283.15
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  7283.15
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  8258.95
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- StreamingMovies_No >  0.50
+|   |   |   |   |   |--- tenure <= 39.50
+|   |   |   |   |   |   |--- TotalCharges <= 2849.90
+|   |   |   |   |   |   |   |--- SeniorCitizen_No <= 0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 2649.97
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 77.17
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  77.17
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  2649.97
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- SeniorCitizen_No >  0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 651.15
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  651.15
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 1319.22
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  1319.22
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- TotalCharges >  2849.90
+|   |   |   |   |   |   |   |--- tenure <= 31.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- tenure >  31.50
+|   |   |   |   |   |   |   |   |--- tenure <= 34.50
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- tenure >  34.50
+|   |   |   |   |   |   |   |   |   |--- OnlineBackup_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- OnlineBackup_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- tenure >  39.50
+|   |   |   |   |   |   |--- MonthlyCharges <= 89.92
+|   |   |   |   |   |   |   |--- TotalCharges <= 6342.08
+|   |   |   |   |   |   |   |   |--- OnlineBackup_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- OnlineBackup_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  6342.08
+|   |   |   |   |   |   |   |   |--- StreamingTV_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- StreamingTV_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- MonthlyCharges >  89.92
+|   |   |   |   |   |   |   |--- TotalCharges <= 7383.28
+|   |   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 90.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  90.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 100.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  100.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  7383.28
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |--- Contract_Two year >  0.50
+|   |   |   |--- PaymentMethod_Electronic check <= 0.50
+|   |   |   |   |--- OnlineSecurity_No <= 0.50
+|   |   |   |   |   |--- TotalCharges <= 6578.80
+|   |   |   |   |   |   |--- MonthlyCharges <= 91.88
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 86.83
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MonthlyCharges >  86.83
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 87.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  87.00
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 6157.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  6157.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- MonthlyCharges >  91.88
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 92.03
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MonthlyCharges >  92.03
+|   |   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 92.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  92.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 99.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  99.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- TotalCharges >  6578.80
+|   |   |   |   |   |   |--- TotalCharges <= 7554.52
+|   |   |   |   |   |   |   |--- TotalCharges <= 7364.10
+|   |   |   |   |   |   |   |   |--- SeniorCitizen_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 103.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  103.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- SeniorCitizen_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 85.75
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  85.75
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  7364.10
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 7382.70
+|   |   |   |   |   |   |   |   |   |--- tenure <= 63.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  63.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  7382.70
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 7553.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  7553.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- TotalCharges >  7554.52
+|   |   |   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 7610.68
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  7610.68
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 7611.70
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  7611.70
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- tenure <= 71.50
+|   |   |   |   |   |   |   |   |   |--- gender_Female <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- gender_Female >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- tenure >  71.50
+|   |   |   |   |   |   |   |   |   |--- TechSupport_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TechSupport_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- OnlineSecurity_No >  0.50
+|   |   |   |   |   |--- TotalCharges <= 6669.25
+|   |   |   |   |   |   |--- MonthlyCharges <= 99.03
+|   |   |   |   |   |   |   |--- tenure <= 24.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- tenure >  24.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 94.72
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 85.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  85.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  94.72
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 94.78
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  94.78
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- MonthlyCharges >  99.03
+|   |   |   |   |   |   |   |--- tenure <= 52.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 5037.33
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 3218.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  3218.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  5037.33
+|   |   |   |   |   |   |   |   |   |--- tenure <= 47.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- tenure >  47.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- tenure >  52.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 4868.88
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Bank transfer (automatic) <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Bank transfer (automatic) >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  4868.88
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 6585.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  6585.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- TotalCharges >  6669.25
+|   |   |   |   |   |   |--- SeniorCitizen_No <= 0.50
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 93.10
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- MonthlyCharges >  93.10
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 110.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  110.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- TechSupport_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TechSupport_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- SeniorCitizen_No >  0.50
+|   |   |   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- TechSupport_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 101.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  101.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TechSupport_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 63.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  63.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 110.12
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 6679.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  6679.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  110.12
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 7640.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  7640.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- PaymentMethod_Electronic check >  0.50
+|   |   |   |   |--- TotalCharges <= 7031.43
+|   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |--- OnlineSecurity_No <= 0.50
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 95.72
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MonthlyCharges >  95.72
+|   |   |   |   |   |   |   |   |--- StreamingTV_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 60.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  60.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- StreamingTV_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 5804.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  5804.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- OnlineSecurity_No >  0.50
+|   |   |   |   |   |   |   |--- tenure <= 59.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 6505.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 32.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- tenure >  32.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  6505.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 110.55
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  110.55
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- tenure >  59.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 6473.12
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  6473.12
+|   |   |   |   |   |   |   |   |   |--- tenure <= 71.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  71.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |--- tenure <= 63.50
+|   |   |   |   |   |   |   |--- TotalCharges <= 5878.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 5800.43
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 110.72
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  110.72
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  5800.43
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- TotalCharges >  5878.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- tenure >  63.50
+|   |   |   |   |   |   |   |--- TotalCharges <= 6760.65
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 99.20
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 6301.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  6301.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  99.20
+|   |   |   |   |   |   |   |   |   |--- gender_Female <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- gender_Female >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  6760.65
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 96.08
+|   |   |   |   |   |   |   |   |   |--- OnlineBackup_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- OnlineBackup_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  96.08
+|   |   |   |   |   |   |   |   |   |--- tenure <= 64.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  64.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- TotalCharges >  7031.43
+|   |   |   |   |   |--- TotalCharges <= 7554.52
+|   |   |   |   |   |   |--- TotalCharges <= 7346.30
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 104.67
+|   |   |   |   |   |   |   |   |--- DeviceProtection_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- DeviceProtection_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 7157.62
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  7157.62
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MonthlyCharges >  104.67
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 7038.75
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  7038.75
+|   |   |   |   |   |   |   |   |   |--- Partner_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Partner_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- TotalCharges >  7346.30
+|   |   |   |   |   |   |   |--- PaperlessBilling_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 7369.18
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  7369.18
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 101.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  101.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- PaperlessBilling_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- tenure <= 65.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 7391.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  7391.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- tenure >  65.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 7553.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  7553.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- TotalCharges >  7554.52
+|   |   |   |   |   |   |--- MonthlyCharges <= 113.78
+|   |   |   |   |   |   |   |--- TotalCharges <= 7837.38
+|   |   |   |   |   |   |   |   |--- gender_Male <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 104.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  104.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- gender_Male >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 7609.93
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  7609.93
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  7837.38
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 8283.12
+|   |   |   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  8283.12
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 8477.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  8477.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- MonthlyCharges >  113.78
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 117.70
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 115.58
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 114.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  114.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  115.58
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 8310.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  8310.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MonthlyCharges >  117.70
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 8067.40
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  8067.40
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 118.40
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  118.40
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|--- Contract_Month-to-month >  0.50
+|   |--- InternetService_Fiber optic <= 0.50
+|   |   |--- PaymentMethod_Electronic check <= 0.50
+|   |   |   |--- tenure <= 1.50
+|   |   |   |   |--- DeviceProtection_No internet service <= 0.50
+|   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |   |--- MultipleLines_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 70.52
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  70.52
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- MultipleLines_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 44.68
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  44.68
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |   |--- Partner_No <= 0.50
+|   |   |   |   |   |   |   |   |--- StreamingTV_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TechSupport_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TechSupport_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- StreamingTV_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 55.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  55.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Partner_No >  0.50
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 45.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  45.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 55.48
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  55.48
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |   |--- TotalCharges <= 20.02
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 19.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 19.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  19.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  19.50
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  20.02
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 50.12
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 49.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  49.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  50.12
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 74.70
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  74.70
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |   |--- TechSupport_No <= 0.50
+|   |   |   |   |   |   |   |   |--- OnlineBackup_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- OnlineBackup_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 50.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  50.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- TechSupport_No >  0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 50.77
+|   |   |   |   |   |   |   |   |   |--- gender_Female <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- gender_Female >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  50.77
+|   |   |   |   |   |   |   |   |   |--- StreamingTV_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- StreamingTV_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- DeviceProtection_No internet service >  0.50
+|   |   |   |   |   |--- MultipleLines_Yes <= 0.50
+|   |   |   |   |   |   |--- SeniorCitizen_Yes <= 0.50
+|   |   |   |   |   |   |   |--- PaymentMethod_Mailed check <= 0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 19.32
+|   |   |   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  19.32
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 20.98
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  20.98
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- PaymentMethod_Mailed check >  0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 19.18
+|   |   |   |   |   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  19.18
+|   |   |   |   |   |   |   |   |   |--- Partner_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Partner_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- SeniorCitizen_Yes >  0.50
+|   |   |   |   |   |   |   |--- TotalCharges <= 19.48
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- TotalCharges >  19.48
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 19.57
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  19.57
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Mailed check <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Mailed check >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- MultipleLines_Yes >  0.50
+|   |   |   |   |   |   |--- TotalCharges <= 25.07
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 21.93
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- MonthlyCharges >  21.93
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 24.27
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 24.23
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  24.23
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  24.27
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 24.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  24.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- TotalCharges >  25.07
+|   |   |   |   |   |   |   |--- PaperlessBilling_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 25.23
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  25.23
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- PaperlessBilling_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 25.82
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 25.57
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  25.57
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  25.82
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- tenure >  1.50
+|   |   |   |   |--- MonthlyCharges <= 21.07
+|   |   |   |   |   |--- TotalCharges <= 711.60
+|   |   |   |   |   |   |--- TotalCharges <= 93.53
+|   |   |   |   |   |   |   |--- TotalCharges <= 75.42
+|   |   |   |   |   |   |   |   |--- tenure <= 4.50
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- tenure >  4.50
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- TotalCharges >  75.42
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 76.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  76.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- TotalCharges >  93.53
+|   |   |   |   |   |   |   |--- TotalCharges <= 567.62
+|   |   |   |   |   |   |   |   |--- PaymentMethod_Mailed check <= 0.50
+|   |   |   |   |   |   |   |   |   |--- Partner_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Partner_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- PaymentMethod_Mailed check >  0.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  567.62
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 673.32
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 571.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  571.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  673.32
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 20.93
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  20.93
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- TotalCharges >  711.60
+|   |   |   |   |   |   |--- tenure <= 62.50
+|   |   |   |   |   |   |   |--- TotalCharges <= 1404.95
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 20.73
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 20.48
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  20.48
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  20.73
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  1404.95
+|   |   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 1536.72
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  1536.72
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- tenure >  62.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- MonthlyCharges >  21.07
+|   |   |   |   |   |--- tenure <= 16.50
+|   |   |   |   |   |   |--- tenure <= 4.50
+|   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 122.85
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  122.85
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 201.62
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  201.62
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 153.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  153.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- tenure >  4.50
+|   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |--- TechSupport_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 1114.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  1114.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TechSupport_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 1050.33
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  1050.33
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- tenure >  16.50
+|   |   |   |   |   |   |--- MonthlyCharges <= 50.18
+|   |   |   |   |   |   |   |--- StreamingTV_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 1261.38
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 997.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  997.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  1261.38
+|   |   |   |   |   |   |   |   |   |--- tenure <= 21.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  21.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- StreamingTV_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 905.27
+|   |   |   |   |   |   |   |   |   |--- tenure <= 23.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  23.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  905.27
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 3078.40
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  3078.40
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- MonthlyCharges >  50.18
+|   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |--- PhoneService_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- OnlineSecurity_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- OnlineSecurity_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- PhoneService_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 17.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  17.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 1237.75
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 1233.92
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  1233.92
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  1237.75
+|   |   |   |   |   |   |   |   |   |--- tenure <= 54.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  54.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |--- PaymentMethod_Electronic check >  0.50
+|   |   |   |--- tenure <= 3.50
+|   |   |   |   |--- DeviceProtection_No internet service <= 0.50
+|   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |--- TotalCharges <= 102.62
+|   |   |   |   |   |   |   |--- SeniorCitizen_No <= 0.50
+|   |   |   |   |   |   |   |   |--- gender_Male <= 0.50
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- gender_Male >  0.50
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- SeniorCitizen_No >  0.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 69.08
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  69.08
+|   |   |   |   |   |   |   |   |   |--- StreamingMovies_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- StreamingMovies_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- TotalCharges >  102.62
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 55.52
+|   |   |   |   |   |   |   |   |--- PhoneService_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- tenure >  2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- PhoneService_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 107.17
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  107.17
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- MonthlyCharges >  55.52
+|   |   |   |   |   |   |   |   |--- StreamingTV_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TechSupport_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TechSupport_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- StreamingTV_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 169.45
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  169.45
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |   |--- TotalCharges <= 85.72
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 20.02
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  20.02
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 35.52
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  35.52
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- TotalCharges >  85.72
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 40.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  40.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 87.42
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  87.42
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 29.62
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 29.18
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 24.57
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  24.57
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  29.18
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- MonthlyCharges >  29.62
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 30.20
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  30.20
+|   |   |   |   |   |   |   |   |   |--- OnlineBackup_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- OnlineBackup_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- DeviceProtection_No internet service >  0.50
+|   |   |   |   |   |--- TotalCharges <= 31.82
+|   |   |   |   |   |   |--- MonthlyCharges <= 25.43
+|   |   |   |   |   |   |   |--- MultipleLines_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 19.82
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 20.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  20.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  19.82
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 19.93
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  19.93
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- MultipleLines_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 24.82
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 24.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  24.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  24.82
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 25.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  25.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- MonthlyCharges >  25.43
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- TotalCharges >  31.82
+|   |   |   |   |   |   |--- TotalCharges <= 62.02
+|   |   |   |   |   |   |   |--- TotalCharges <= 40.05
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 19.82
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 39.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  39.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  19.82
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 20.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  20.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  40.05
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 20.07
+|   |   |   |   |   |   |   |   |   |--- tenure <= 2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  20.07
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- TotalCharges >  62.02
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 20.60
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 63.50
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  63.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MonthlyCharges >  20.60
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- tenure >  3.50
+|   |   |   |   |--- OnlineSecurity_No <= 0.50
+|   |   |   |   |   |--- MonthlyCharges <= 24.02
+|   |   |   |   |   |   |--- MonthlyCharges <= 20.18
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 19.57
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 19.12
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  19.12
+|   |   |   |   |   |   |   |   |   |--- tenure <= 5.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  5.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MonthlyCharges >  19.57
+|   |   |   |   |   |   |   |   |--- tenure <= 45.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 19.68
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  19.68
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- tenure >  45.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 19.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  19.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- MonthlyCharges >  20.18
+|   |   |   |   |   |   |   |--- TotalCharges <= 85.03
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 80.42
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  80.42
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 20.32
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  20.32
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- TotalCharges >  85.03
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 1148.65
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 737.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  737.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  1148.65
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- MonthlyCharges >  24.02
+|   |   |   |   |   |   |--- TotalCharges <= 1367.78
+|   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- StreamingMovies_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- StreamingMovies_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 1103.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  1103.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- StreamingTV_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- StreamingTV_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- TotalCharges >  1367.78
+|   |   |   |   |   |   |   |--- PaperlessBilling_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 56.20
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 49.23
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  49.23
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  56.20
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 56.27
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  56.27
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- PaperlessBilling_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 34.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  34.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 1731.33
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  1731.33
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- OnlineSecurity_No >  0.50
+|   |   |   |   |   |--- PhoneService_Yes <= 0.50
+|   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |--- tenure <= 16.50
+|   |   |   |   |   |   |   |   |--- SeniorCitizen_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 50.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  50.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- SeniorCitizen_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TechSupport_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TechSupport_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- tenure >  16.50
+|   |   |   |   |   |   |   |   |--- tenure <= 39.50
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- tenure >  39.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 35.52
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  35.52
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 260.07
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 35.65
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  35.65
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  260.07
+|   |   |   |   |   |   |   |   |   |--- tenure <= 37.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  37.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 45.02
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  45.02
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- DeviceProtection_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- PhoneService_Yes >  0.50
+|   |   |   |   |   |   |--- tenure <= 16.50
+|   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 5.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- tenure >  5.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 44.52
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  44.52
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 75.47
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 49.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  49.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  75.47
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 911.62
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  911.62
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- tenure >  16.50
+|   |   |   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 4077.70
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  4077.70
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 49.68
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  49.68
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- tenure <= 24.50
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- tenure >  24.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 50.27
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  50.27
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |--- InternetService_Fiber optic >  0.50
+|   |   |--- tenure <= 17.50
+|   |   |   |--- PaymentMethod_Electronic check <= 0.50
+|   |   |   |   |--- tenure <= 2.50
+|   |   |   |   |   |--- MonthlyCharges <= 71.08
+|   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |--- TotalCharges <= 70.22
+|   |   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 69.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  69.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- OnlineBackup_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- OnlineBackup_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- TotalCharges >  70.22
+|   |   |   |   |   |   |   |   |--- Partner_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 161.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  161.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Partner_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 69.62
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  69.62
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 20.32
+|   |   |   |   |   |   |   |   |--- gender_Male <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- gender_Male >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- MonthlyCharges >  20.32
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 132.55
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Credit card (automatic) >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  132.55
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 134.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  134.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- MonthlyCharges >  71.08
+|   |   |   |   |   |   |--- tenure <= 1.50
+|   |   |   |   |   |   |   |--- TotalCharges <= 71.00
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 70.12
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  70.12
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  71.00
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 76.12
+|   |   |   |   |   |   |   |   |   |--- OnlineBackup_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- OnlineBackup_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  76.12
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 83.92
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  83.92
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- tenure >  1.50
+|   |   |   |   |   |   |   |--- MonthlyCharges <= 83.35
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 80.78
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 109.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  109.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  80.78
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Mailed check <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Mailed check >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- MonthlyCharges >  83.35
+|   |   |   |   |   |   |   |   |--- Partner_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 155.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  155.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Partner_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TechSupport_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TechSupport_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- tenure >  2.50
+|   |   |   |   |   |--- MonthlyCharges <= 83.28
+|   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |--- TotalCharges <= 774.85
+|   |   |   |   |   |   |   |   |--- SeniorCitizen_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 277.30
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  277.30
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- SeniorCitizen_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 706.65
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  706.65
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- TotalCharges >  774.85
+|   |   |   |   |   |   |   |   |--- PaymentMethod_Mailed check <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 74.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  74.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- PaymentMethod_Mailed check >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 829.43
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  829.43
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- tenure <= 5.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 79.97
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  79.97
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- tenure >  5.50
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 74.38
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 68.97
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  68.97
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  74.38
+|   |   |   |   |   |   |   |   |   |--- TechSupport_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TechSupport_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- MonthlyCharges >  83.28
+|   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |--- OnlineSecurity_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 91.33
+|   |   |   |   |   |   |   |   |   |--- tenure <= 5.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- tenure >  5.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  91.33
+|   |   |   |   |   |   |   |   |   |--- tenure <= 15.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- tenure >  15.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- OnlineSecurity_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 89.83
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  89.83
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 1564.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  1564.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |--- StreamingTV_No <= 0.50
+|   |   |   |   |   |   |   |   |--- tenure <= 14.50
+|   |   |   |   |   |   |   |   |   |--- TechSupport_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TechSupport_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- tenure >  14.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 1087.83
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  1087.83
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- StreamingTV_No >  0.50
+|   |   |   |   |   |   |   |   |--- tenure <= 15.50
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- tenure >  15.50
+|   |   |   |   |   |   |   |   |   |--- TechSupport_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TechSupport_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- PaymentMethod_Electronic check >  0.50
+|   |   |   |   |--- tenure <= 2.50
+|   |   |   |   |   |--- MonthlyCharges <= 71.08
+|   |   |   |   |   |   |--- TotalCharges <= 70.78
+|   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |--- SeniorCitizen_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 70.33
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  70.33
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- SeniorCitizen_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 68.62
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  68.62
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 20.10
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  20.10
+|   |   |   |   |   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- TotalCharges >  70.78
+|   |   |   |   |   |   |   |--- TotalCharges <= 164.03
+|   |   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 70.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  70.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- TotalCharges >  164.03
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 176.48
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 169.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  169.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  176.48
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 195.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  195.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- MonthlyCharges >  71.08
+|   |   |   |   |   |   |--- MonthlyCharges <= 81.78
+|   |   |   |   |   |   |   |--- TotalCharges <= 102.48
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 76.03
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  76.03
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- TotalCharges >  102.48
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 108.30
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  108.30
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- MonthlyCharges >  81.78
+|   |   |   |   |   |   |   |--- TotalCharges <= 104.98
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 89.67
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  89.67
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- TotalCharges >  104.98
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- StreamingMovies_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- StreamingMovies_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 144.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  144.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- tenure >  2.50
+|   |   |   |   |   |--- MonthlyCharges <= 82.47
+|   |   |   |   |   |   |--- SeniorCitizen_Yes <= 0.50
+|   |   |   |   |   |   |   |--- tenure <= 11.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 73.53
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  73.53
+|   |   |   |   |   |   |   |   |   |--- tenure <= 4.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- tenure >  4.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- tenure >  11.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 1004.55
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 937.73
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  937.73
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  1004.55
+|   |   |   |   |   |   |   |   |   |--- tenure <= 15.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- tenure >  15.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- SeniorCitizen_Yes >  0.50
+|   |   |   |   |   |   |   |--- tenure <= 11.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 72.00
+|   |   |   |   |   |   |   |   |   |--- Partner_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- Partner_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  72.00
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- tenure >  11.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 998.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 990.73
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  990.73
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  998.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 1155.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  1155.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- MonthlyCharges >  82.47
+|   |   |   |   |   |   |--- SeniorCitizen_No <= 0.50
+|   |   |   |   |   |   |   |--- tenure <= 12.50
+|   |   |   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 92.67
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  92.67
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- OnlineSecurity_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- OnlineSecurity_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- tenure >  12.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 740.80
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  740.80
+|   |   |   |   |   |   |   |   |   |--- StreamingTV_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- StreamingTV_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- SeniorCitizen_No >  0.50
+|   |   |   |   |   |   |   |--- tenure <= 12.50
+|   |   |   |   |   |   |   |   |--- MultipleLines_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 474.77
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  474.77
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MultipleLines_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 92.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  92.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- tenure >  12.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 91.97
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 972.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  972.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  91.97
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |--- tenure >  17.50
+|   |   |   |--- PaymentMethod_Electronic check <= 0.50
+|   |   |   |   |--- StreamingTV_No <= 0.50
+|   |   |   |   |   |--- tenure <= 42.50
+|   |   |   |   |   |   |--- StreamingMovies_No <= 0.50
+|   |   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 111.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  111.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 3144.40
+|   |   |   |   |   |   |   |   |   |--- gender_Female <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- gender_Female >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- TotalCharges >  3144.40
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 104.33
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  104.33
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- StreamingMovies_No >  0.50
+|   |   |   |   |   |   |   |--- MultipleLines_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 32.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  32.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 91.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  91.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MultipleLines_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 94.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  94.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 2310.70
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  2310.70
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- tenure >  42.50
+|   |   |   |   |   |   |--- OnlineSecurity_Yes <= 0.50
+|   |   |   |   |   |   |   |--- StreamingMovies_No <= 0.50
+|   |   |   |   |   |   |   |   |--- tenure <= 56.50
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- tenure >  56.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 6344.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  6344.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- StreamingMovies_No >  0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 3982.65
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 2535.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  2535.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  3982.65
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 4279.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  4279.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- OnlineSecurity_Yes >  0.50
+|   |   |   |   |   |   |   |--- tenure <= 71.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 6713.48
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 5971.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  5971.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  6713.48
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 111.68
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  111.68
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- tenure >  71.50
+|   |   |   |   |   |   |   |   |--- gender_Male <= 0.50
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- gender_Male >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- StreamingTV_No >  0.50
+|   |   |   |   |   |--- tenure <= 43.50
+|   |   |   |   |   |   |--- SeniorCitizen_No <= 0.50
+|   |   |   |   |   |   |   |--- MultipleLines_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 1969.70
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 69.78
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  69.78
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  1969.70
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 89.52
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  89.52
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MultipleLines_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- tenure <= 31.50
+|   |   |   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- tenure >  31.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 2868.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  2868.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- SeniorCitizen_No >  0.50
+|   |   |   |   |   |   |   |--- StreamingMovies_No <= 0.50
+|   |   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 3887.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  3887.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Mailed check <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- PaymentMethod_Mailed check >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- StreamingMovies_No >  0.50
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 81.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  81.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- tenure >  43.50
+|   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |--- PaperlessBilling_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 92.05
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 85.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  85.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  92.05
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 94.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  94.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- PaperlessBilling_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- tenure <= 56.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 4116.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  4116.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- tenure >  56.50
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |--- tenure <= 51.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 3910.42
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  3910.42
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- tenure >  51.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 5692.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  5692.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |--- tenure <= 66.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 56.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  56.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- tenure >  66.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 5268.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  5268.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- PaymentMethod_Electronic check >  0.50
+|   |   |   |   |--- StreamingTV_No <= 0.50
+|   |   |   |   |   |--- tenure <= 42.50
+|   |   |   |   |   |   |--- SeniorCitizen_Yes <= 0.50
+|   |   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |   |--- StreamingMovies_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 32.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- tenure >  32.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- StreamingMovies_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 97.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  97.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 80.15
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  80.15
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- SeniorCitizen_Yes >  0.50
+|   |   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- OnlineSecurity_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |--- OnlineBackup_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- OnlineBackup_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |   |--- StreamingMovies_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 104.75
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  104.75
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- StreamingMovies_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 3407.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  3407.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- tenure >  42.50
+|   |   |   |   |   |   |--- StreamingMovies_No <= 0.50
+|   |   |   |   |   |   |   |--- OnlineSecurity_Yes <= 0.50
+|   |   |   |   |   |   |   |   |--- tenure <= 50.50
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- tenure >  50.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 7092.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  7092.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- OnlineSecurity_Yes >  0.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 105.88
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 96.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  96.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  105.88
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- SeniorCitizen_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- StreamingMovies_No >  0.50
+|   |   |   |   |   |   |   |--- Dependents_No <= 0.50
+|   |   |   |   |   |   |   |   |--- tenure <= 56.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 5122.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  5122.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- tenure >  56.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 5821.35
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  5821.35
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Dependents_No >  0.50
+|   |   |   |   |   |   |   |   |--- gender_Male <= 0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 5310.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  5310.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- gender_Male >  0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 79.60
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  79.60
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- StreamingTV_No >  0.50
+|   |   |   |   |   |--- tenure <= 42.50
+|   |   |   |   |   |   |--- StreamingMovies_No <= 0.50
+|   |   |   |   |   |   |   |--- SeniorCitizen_No <= 0.50
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 97.38
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  97.38
+|   |   |   |   |   |   |   |   |   |--- tenure <= 35.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  35.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- SeniorCitizen_No >  0.50
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 32.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- tenure >  32.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 1743.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  1743.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- StreamingMovies_No >  0.50
+|   |   |   |   |   |   |   |--- SeniorCitizen_No <= 0.50
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 86.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  86.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 3021.68
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  3021.68
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- SeniorCitizen_No >  0.50
+|   |   |   |   |   |   |   |   |--- MultipleLines_No <= 0.50
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- PaperlessBilling_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MultipleLines_No >  0.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 1536.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  1536.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- tenure >  42.50
+|   |   |   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |   |   |--- StreamingMovies_No <= 0.50
+|   |   |   |   |   |   |   |   |--- TotalCharges <= 3867.85
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_Yes <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MultipleLines_Yes >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- TotalCharges >  3867.85
+|   |   |   |   |   |   |   |   |   |--- tenure <= 56.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- tenure >  56.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- StreamingMovies_No >  0.50
+|   |   |   |   |   |   |   |   |--- tenure <= 55.50
+|   |   |   |   |   |   |   |   |   |--- OnlineSecurity_No <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- OnlineSecurity_No >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- tenure >  55.50
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 4422.43
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  4422.43
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |   |   |--- TotalCharges <= 3901.85
+|   |   |   |   |   |   |   |   |--- MonthlyCharges <= 70.20
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- MonthlyCharges >  70.20
+|   |   |   |   |   |   |   |   |   |--- TotalCharges <= 3274.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- TotalCharges >  3274.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- TotalCharges >  3901.85
+|   |   |   |   |   |   |   |   |--- tenure <= 51.50
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges <= 79.70
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- MonthlyCharges >  79.70
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- tenure >  51.50
+|   |   |   |   |   |   |   |   |   |--- tenure <= 68.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- tenure >  68.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
