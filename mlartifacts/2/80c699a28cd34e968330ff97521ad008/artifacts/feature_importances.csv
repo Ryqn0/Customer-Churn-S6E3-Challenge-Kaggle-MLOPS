@@ -1,0 +1,47 @@
+feature,importance
+MonthlyCharges,7479
+TotalCharges,7325
+tenure,4725
+gender_Female,673
+PaymentMethod_Electronic check,635
+Partner_No,542
+PaymentMethod_Credit card (automatic),535
+SeniorCitizen_No,528
+PaperlessBilling_No,502
+PaymentMethod_Bank transfer (automatic),462
+Dependents_No,457
+DeviceProtection_No,408
+TechSupport_No,374
+OnlineBackup_No,369
+PaymentMethod_Mailed check,364
+OnlineSecurity_No,357
+Contract_Month-to-month,356
+MultipleLines_No,344
+Contract_One year,336
+StreamingTV_No,286
+StreamingMovies_No,285
+MultipleLines_Yes,271
+Contract_Two year,263
+OnlineSecurity_Yes,194
+PaperlessBilling_Yes,190
+TechSupport_Yes,186
+OnlineBackup_Yes,183
+gender_Male,180
+DeviceProtection_Yes,160
+StreamingTV_Yes,151
+Partner_Yes,148
+StreamingMovies_Yes,139
+InternetService_Fiber optic,135
+InternetService_DSL,109
+MultipleLines_No phone service,104
+Dependents_Yes,96
+SeniorCitizen_Yes,73
+DeviceProtection_No internet service,28
+PhoneService_Yes,28
+InternetService_No,0
+OnlineBackup_No internet service,0
+OnlineSecurity_No internet service,0
+StreamingMovies_No internet service,0
+PhoneService_No,0
+StreamingTV_No internet service,0
+TechSupport_No internet service,0
