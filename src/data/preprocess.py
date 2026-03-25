@@ -24,9 +24,9 @@ def preprocess_data(data, target_column = 'Churn'):
     if target_column in data.columns:
         data[target_column] = data[target_column].map({'No': 0, 'Yes': 1}) # Map target variable to binary values
 
-    categorical_cols = data.select_dtypes(include="object").columns.difference([target_column])
+    #categorical_cols = data.select_dtypes(include="object").columns.difference([target_column])
     
     # Encode categorical variables using one-hot encoding
-    data_encoded = pd.get_dummies(data, columns=categorical_cols, drop_first=False)
+    #data_encoded = pd.get_dummies(data, columns=categorical_cols, drop_first=False)
     
-    return data_encoded
+    return data
