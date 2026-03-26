@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-def load_data(file_path):
+def load_data(file_path: str) -> pd.DataFrame:
     """
     Load data from a CSV file.
 
@@ -19,3 +19,4 @@ def load_data(file_path):
         return data
     except Exception as e:
         print(f"An error occurred while loading the data: {e}")
+        

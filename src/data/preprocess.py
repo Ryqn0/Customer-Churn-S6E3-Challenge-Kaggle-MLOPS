@@ -1,6 +1,6 @@
 import pandas as pd
 
-def preprocess_data(data, target_column = 'Churn'):
+def preprocess_data(data: pd.DataFrame, target_column: str = 'Churn') -> pd.DataFrame:
     """
     Preprocess the data by handling missing values and encoding categorical variables.
 
@@ -14,6 +14,8 @@ def preprocess_data(data, target_column = 'Churn'):
     for column in data.columns:
         if data[column].dtype == 'object':
             data[column] = data[column].fillna(data[column].mode()[0]) # Fill missing categorical values with the mode
+        elif data[column].dtype == 'bool':
+            data[column] = data[column].fillna(data[column].mode()[0]) # Fill missing boolean values with the mode
         else:
             if column == "SeniorCitizen":
                 data[column] = data[column].fillna(data[column].mode()[0]) # Fill missing values in SeniorCitizen with the mode
