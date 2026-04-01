@@ -11,6 +11,9 @@ def preprocess_data(data: pd.DataFrame, target_column: str = 'Churn') -> pd.Data
     pd.DataFrame: A preprocessed DataFrame ready for analysis or modeling.
     """
 
+    # Handle dupplicate rows
+    data = data.drop_duplicates()
+
     for column in data.columns:
         if data[column].dtype == 'object':
             data[column] = data[column].fillna(data[column].mode()[0]) # Fill missing categorical values with the mode
