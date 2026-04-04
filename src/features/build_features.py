@@ -12,9 +12,20 @@ def build_features(df: pd.DataFrame, target_column: str = 'Churn') -> pd.DataFra
     pd.DataFrame: DataFrame with engineered features.
     """
 
+    print("Building features...")
+
+    print("Encoding categorical variables...")
     categorical_cols = df.select_dtypes(include="object").columns.difference([target_column])
     # numerical_cols = df.select_dtypes(include=['int64', 'float64']).columns.difference([target_column])
-    
+
+    print(f"Categorical columns to encode: {list(categorical_cols)}")
+
+    print(f"Data shape before encoding: {df.shape}")
+
     data_encoded = pd.get_dummies(df, columns=categorical_cols, drop_first=False)
+
+    print(f"Data shape after encoding: {data_encoded.shape}")
+
+    print("Features built successfully.")
     
     return data_encoded
