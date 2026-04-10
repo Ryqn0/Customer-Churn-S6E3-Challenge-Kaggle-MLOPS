@@ -1,8 +1,16 @@
-import pandas as pd
-from src.data.preprocess import preprocess_data
-from src.utils.validate_data import validate_data
+import sys
+from pathlib import Path
 
-DATA_PATH = "../src/data/test.csv"
+ROOT_DIR = Path(__file__).resolve().parents[1]
+SRC_DIR = ROOT_DIR / "src"
+if str(SRC_DIR) not in sys.path:
+    sys.path.append(str(SRC_DIR))  # Add the src directory to the system path to import modules
+
+import pandas as pd
+from data.preprocess import preprocess_data
+from utils.validate_data import validate_data
+
+DATA_PATH = SRC_DIR / "data" / "raw" / "test.csv"
 TARGET_COLUMN = "Churn"
 FEATURES_LIST = ["id", "gender", "SeniorCitizen", "Partner", "Dependents", "tenure", "PhoneService", "MultipleLines", "InternetService", "OnlineSecurity", "OnlineBackup", "DeviceProtection", "TechSupport", "StreamingTV", "StreamingMovies", "Contract", "PaperlessBilling", "PaymentMethod", "MonthlyCharges", "TotalCharges"]
 
