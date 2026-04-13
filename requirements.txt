@@ -7,7 +7,7 @@ uvicorn
 pydantic
 python-dotenv
 joblib
-great-expectations
+great-expectations>=1.15,<2.0
 pytest
 xgboost
 lightgbm
