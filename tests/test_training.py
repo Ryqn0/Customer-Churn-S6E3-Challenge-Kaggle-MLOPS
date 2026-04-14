@@ -41,3 +41,7 @@ def test_train_model():
         print("Model training test passed successfully!")
     except Exception as e:
         assert False, f"Model training failed with error: {e}"
+
+if __name__ == "__main__":    
+    test_train_model()
+    print("All tests passed successfully!")
