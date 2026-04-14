@@ -44,7 +44,7 @@ def preprocess_data(data: pd.DataFrame, target_column: str = 'Churn') -> pd.Data
     #categorical_cols = data.select_dtypes(include="object").columns.difference([target_column])
     
     # Encode categorical variables using one-hot encoding
-    #data_encoded = pd.get_dummies(data, columns=categorical_cols, drop_first=False)
+    #data = pd.get_dummies(data, columns=categorical_cols, drop_first=False)
     
     print("Preprocessing completed.")
 

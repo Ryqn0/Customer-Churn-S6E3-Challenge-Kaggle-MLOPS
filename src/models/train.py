@@ -7,6 +7,7 @@ from lightgbm import LGBMClassifier
 from catboost import CatBoostClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
 from sklearn.ensemble import VotingClassifier
+import joblib
 
 def train_model(data : pd.DataFrame, target_column : str):
     """
@@ -40,11 +41,16 @@ def train_model(data : pd.DataFrame, target_column : str):
     )
 
     print("Classifiers initialized. Starting training...")
+
+    #mlflow.set_tracking_uri("http://localhost:5000")
+    mlflow.set_experiment("Training Experiment")
+    mlflow.sklearn.autolog()
+
     with mlflow.start_run(run_name="Voting Classifier"):
 
         # Log model parameters
         print("Logging model parameters to MLflow...")
-        mlflow.log_param(voting_model.get_params())  # Log all parameters of the voting model
+        mlflow.log_params(voting_model.get_params())  # Log all parameters of the voting model
 
         # train the voting model
         print("Training the voting model...")
@@ -78,3 +84,9 @@ def train_model(data : pd.DataFrame, target_column : str):
         print(f"Recall: {recall:.4f}")
         print(f"F1 Score: {f1:.4f}")
         print(f"ROC AUC: {roc_auc:.4f}")
+
+        # Save the trained model
+        print("Saving the trained model...")
+        joblib.dump(voting_model, "voting_model.pkl")
+        mlflow.log_artifact("voting_model.pkl")
+        print("Model training and evaluation completed successfully!")
