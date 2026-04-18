@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Kaggle/Customer%20Churn%20S6E3/mlruns/894875891458910561/3d7741551a0e42289e9bd4ce082b042d/artifacts
+end_time: 1776515772887
+entry_point_name: ''
+experiment_id: '894875891458910561'
+lifecycle_stage: active
+run_id: 3d7741551a0e42289e9bd4ce082b042d
+run_name: Training Run - 2026-04-18 14:36:04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776515765018
+status: 4
+tags: []
+user_id: dungr

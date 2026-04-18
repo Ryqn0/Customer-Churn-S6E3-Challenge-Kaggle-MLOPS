@@ -30,6 +30,46 @@ def _extract_expectation_type(result: Any) -> str:
         return expectation_config.get("type", expectation_config.get("expectation_type", "unknown_expectation"))
     return getattr(expectation_config, "type", getattr(expectation_config, "expectation_type", "unknown_expectation"))
 
+
+def _extract_column_name(result: Any) -> str:
+    if isinstance(result, dict):
+        expectation_config = result.get("expectation_config", {})
+        kwargs = expectation_config.get("kwargs", {})
+        return kwargs.get("column", kwargs.get("column_A", kwargs.get("column_B", "unknown_column")))
+
+    expectation_config = getattr(result, "expectation_config", None)
+    if expectation_config is None:
+        return "unknown_column"
+
+    kwargs = getattr(expectation_config, "kwargs", None)
+    if kwargs is None:
+        return "unknown_column"
+
+    if isinstance(kwargs, dict):
+        return kwargs.get("column", kwargs.get("column_A", kwargs.get("column_B", "unknown_column")))
+
+    return getattr(kwargs, "column", getattr(kwargs, "column_A", getattr(kwargs, "column_B", "unknown_column")))
+
+
+def _extract_unexpected_values(result: Any) -> str:
+    if isinstance(result, dict):
+        payload = result.get("result", {})
+        if isinstance(payload, dict):
+            values = payload.get("partial_unexpected_list") or payload.get("unexpected_list")
+            if values:
+                return str(values)
+        return ""
+
+    payload = getattr(result, "result", None)
+    if payload is None:
+        return ""
+
+    values = getattr(payload, "partial_unexpected_list", None) or getattr(payload, "unexpected_list", None)
+    if values:
+        return str(values)
+
+    return ""
+
 def validate_data(data: pd.DataFrame) -> Tuple[bool, List[str]]:
     """
     Validate the input data using Great Expectations.
@@ -62,7 +102,7 @@ def validate_data(data: pd.DataFrame) -> Tuple[bool, List[str]]:
 
     # Expectation: 'SeniorCitizen' column should exist and have values 'Yes' or 'No' after preprocessing
     validator.expect_column_to_exist('SeniorCitizen')
-    validator.expect_column_values_to_be_in_set('SeniorCitizen', ['Yes', 'No'])
+    validator.expect_column_values_to_be_in_set('SeniorCitizen', [0, 1])
 
     # Expectation: 'Partner' column should exist and have values 'Yes' or 'No'
     validator.expect_column_to_exist('Partner')
@@ -153,7 +193,7 @@ def validate_data(data: pd.DataFrame) -> Tuple[bool, List[str]]:
         results = getattr(validation_results, 'results', [])
 
     validation_errors = [
-        _extract_expectation_type(result)
+        f"{_extract_expectation_type(result)} on column '{_extract_column_name(result)}'"
         for result in results
         if not _extract_success(result)
     ]
@@ -163,7 +203,15 @@ def validate_data(data: pd.DataFrame) -> Tuple[bool, List[str]]:
     print("Validation summary:")
     for result in results:
         expectation_type = _extract_expectation_type(result)
+        column_name = _extract_column_name(result)
         success = _extract_success(result)
-        print(f"{expectation_type}: {'Passed' if success else 'Failed'}")
+        if success:
+            print(f"{expectation_type} ({column_name}): Passed")
+        else:
+            unexpected_values = _extract_unexpected_values(result)
+            if unexpected_values:
+                print(f"{expectation_type} ({column_name}): Failed - unexpected values {unexpected_values}")
+            else:
+                print(f"{expectation_type} ({column_name}): Failed")
 
     return is_valid, validation_errors

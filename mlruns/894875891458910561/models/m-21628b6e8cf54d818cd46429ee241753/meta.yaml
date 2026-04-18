@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Kaggle/Customer%20Churn%20S6E3/mlruns/894875891458910561/models/m-21628b6e8cf54d818cd46429ee241753/artifacts
+creation_timestamp: 1776515988979
+experiment_id: '894875891458910561'
+last_updated_timestamp: 1776515992807
+model_id: m-21628b6e8cf54d818cd46429ee241753
+model_type: null
+name: model
+source_run_id: 8124e50995ed4094b49640493a10d146
+status: 2
+status_message: null

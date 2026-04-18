@@ -1,0 +1,16 @@
+creation_timestamp: 1776515934466
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1776515934466
+model_id: m-c34b6eb77798439f859bf96c5fa721be
+name: VotingClassifierModel
+run_id: 15e80bcbbe50437485b2322ceadb6dde
+run_link: null
+source: models:/m-c34b6eb77798439f859bf96c5fa721be
+status: READY
+status_message: null
+storage_location: file:///D:/Kaggle/Customer%20Churn%20S6E3/mlruns/894875891458910561/models/m-c34b6eb77798439f859bf96c5fa721be/artifacts
+user_id: null
+version: 1
+workspace: default

@@ -16,3 +16,4 @@ dvc
 gradio
 optuna
 seaborn
+posthog

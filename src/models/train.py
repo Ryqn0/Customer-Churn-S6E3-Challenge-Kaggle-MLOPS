@@ -31,11 +31,12 @@ def train_model(data : pd.DataFrame, target_column : str):
 
     # Initialize the classifiers
     print("Initializing classifiers...")
+    scale_pos_weight = y_train.value_counts()[0] / y_train.value_counts()[1]  # Calculate scale_pos_weight for XGBoost
     voting_model = VotingClassifier(
         estimators=[
-            ("xgb", XGBClassifier(random_state=42, max_depth=5, n_estimators=500, learning_rate=0.1)),
-            ("lgbm", LGBMClassifier(random_state=42, max_depth=6, n_estimators=500, learning_rate=0.1)),
-            ("catboost", CatBoostClassifier(random_state=42, max_depth=6, n_estimators=600, learning_rate=0.1))
+            ("xgb", XGBClassifier(random_state=42, max_depth=5, n_estimators=500, learning_rate=0.1, scale_pos_weight=scale_pos_weight)),
+            ("lgbm", LGBMClassifier(random_state=42, max_depth=6, n_estimators=500, learning_rate=0.1, scale_pos_weight=scale_pos_weight)),
+            ("catboost", CatBoostClassifier(random_state=42, max_depth=6, n_estimators=600, learning_rate=0.1, scale_pos_weight=scale_pos_weight, verbose=0))
         ],
         voting="soft"
     )
