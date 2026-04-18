@@ -4,9 +4,17 @@ It uses FastAPI to create a web server that exposes an endpoint for making predi
 It uses GRADIO to create a user interface for the prediction endpoint, allowing users to input data and receive predictions in a user-friendly way.
 """
 
+import sys
+from pathlib import Path
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 import gradio as gr
+
+ROOT_DIR = Path(__file__).resolve().parents[2]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.append(str(ROOT_DIR))
+
 from models.run_inference_pipeline import load_model, predict
 
 # Initialize the FastAPI app
@@ -24,6 +32,20 @@ def health_check():
     Returns a simple message indicating the status of the API.
     """
     return {"status": "API is healthy and running!"}
+
+# CHECK IF MODEL CAN BE LOADED SUCCESSFULLY
+@app.get("/check_model")
+def check_model():
+    """
+    Endpoint to check if the pre-trained model can be loaded successfully.
+    This is useful for debugging and ensuring that the model file is accessible and can be loaded without issues.
+    """
+    try:
+        load_model("voting_model")
+        return {"status": "Model loaded successfully!"}
+    except Exception as e:
+        return {"status": "Error loading model", "error": str(e)}
+
 
 # DATA SCHEMA FOR PREDICTION
 class CustomerData(BaseModel):
@@ -51,6 +73,8 @@ class CustomerData(BaseModel):
     monthly_charges: float # Monthly charges for the customer
     total_charges: float # Total charges for the customer
 
+model = load_model("voting_model") # Load the model at startup to ensure it's available for predictions
+
 # PREDICTION ENDPOINT
 @app.post("/predict")
 def predict_churn(customer_data: CustomerData):
@@ -58,11 +82,9 @@ def predict_churn(customer_data: CustomerData):
     Endpoint for making predictions about customer churn.
     This endpoint accepts a POST request with customer data in the request body, validates the input data, and returns a prediction about whether the customer is likely to churn or not.
     """
-    # Load the pre-trained model
-    model = load_model("voting_model")
 
     # Convert the input data to a dictionary
-    input_data = customer_data.dict()
+    input_data = customer_data.model_dump()
 
     # Make a prediction using the loaded model
     prediction = predict(model, input_data)
@@ -131,7 +153,7 @@ gradio_interface = gr.Interface(
     examples=[
         ["Female", False, "Yes", "No", 12, "Yes", "No", "Fiber optic", "No", "No", "No", "No", "Yes", "No", "Month-to-month", "Yes", "Electronic check", 70.35, 845.5],
         ["Male", True, "No", "Yes", 24, "No", "No phone service", "DSL", "Yes", "Yes", "Yes", "Yes", "No", "No", "Two year", "No", "Bank transfer (automatic)", 99.65, 2399.0]
-    ],theme=gr.themes.Soft()
+    ]
 )
 
 # MOUNT THE GRADIO INTERFACE TO THE FASTAPI APP
