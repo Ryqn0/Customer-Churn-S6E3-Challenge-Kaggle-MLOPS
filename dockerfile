@@ -8,8 +8,7 @@ WORKDIR /app
 COPY requirements.txt .
 
 # Install the required dependencies
-RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && \
-    python get-pip.py && \
+RUN pip install --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
