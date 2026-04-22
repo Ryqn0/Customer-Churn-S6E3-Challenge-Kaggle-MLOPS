@@ -7,10 +7,14 @@ WORKDIR /app
 # Copy the requirements file into the container
 COPY requirements.txt .
 
+# Install system dependencies (libgomp1 requis par LightGBM)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libgomp1 \
+    && rm -rf /var/lib/apt/lists/*
+
 # Install the required dependencies
 RUN pip install --upgrade pip && \
-    pip install --no-cache-dir -r requirements.txt && \
-    apt-get clean && rm -rf /var/lib/apt/lists/*
+    pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application code into the container
 COPY . .
@@ -20,6 +24,9 @@ COPY models/voting_model.pkl .
 
 # CCopy models metadata and artifacts from MLFlow into the container
 COPY mlruns/894875891458910561/models .
+
+# Rend src/ importable : from data.preprocess, from features.build_features, etc.
+ENV PYTHONPATH=/app/src:/app
 
 # Expose the port that the FastAPI app will run on
 EXPOSE 8000

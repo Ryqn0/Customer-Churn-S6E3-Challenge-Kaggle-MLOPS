@@ -1,5 +1,6 @@
-# Données et artefacts volumineux non nécessaires dans l'image
-data/
+# CSVs lourds inutiles dans l'image (feature_names.json est conservé — requis à l'inférence)
+/data/processed/feature_engineered_data.csv
+/data/processed/preprocessed_data.csv
 mlartifacts/
 catboost_info/
 notebooks/
