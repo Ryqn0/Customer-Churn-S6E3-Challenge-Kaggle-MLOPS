@@ -4,6 +4,15 @@ End-to-end MLOps project built on the [Kaggle Playground Series S6E3](https://ww
 
 ---
 
+## Customer Churn Prediction S6E3 Kaggle Competition Leaderboard
+
+| Split | ROC-AUC | Rank | Total Teams | 1st Place |
+|-------|--------:|-----:|------------:|----------:|
+| Public | 0.91378 | 2013 | 4143 | 0.91773 |
+| Private | 0.91504 | 1977 | 4143 | 0.91856 |
+
+---
+
 ## Architecture Overview
 
 ```
