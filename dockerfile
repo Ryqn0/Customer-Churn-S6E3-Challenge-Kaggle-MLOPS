@@ -18,8 +18,11 @@ COPY . .
 # Copy the pre-trained model into the container
 COPY models/voting_model.pkl .
 
-# CCopy models metadata and artifacts from MLFlow into the container
+# Copy models metadata and artifacts from MLFlow into the container
 COPY mlruns/894875891458910561/models .
+
+# src/ importable : from data.preprocess, from features.build_features, etc.
+ENV PYTHONPATH=/app/src:/app
 
 # Expose the port that the FastAPI app will run on
 EXPOSE 8000

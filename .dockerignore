@@ -1,5 +1,5 @@
 # Données et artefacts volumineux non nécessaires dans l'image
-data/
+/data/
 mlartifacts/
 catboost_info/
 notebooks/
