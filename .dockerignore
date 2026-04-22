@@ -1,11 +1,10 @@
-# Données et artefacts volumineux non nécessaires dans l'image
-/data/
+# Data and artifacts 
+/data/**
 mlartifacts/
 catboost_info/
 notebooks/
 
-# MLflow : on ne garde QUE le run référencé dans le Dockerfile
-# (le COPY explicite dans le Dockerfile s'en charge)
+# MLflow : only keep the relevant run and database file
 mlruns/*
 !mlruns/894875891458910561/
 mlflow.db
@@ -40,7 +39,7 @@ env/
 .DS_Store
 Thumbs.db
 
-# Tests et docs
+# Tests and documentation
 tests/
 *.md
 
