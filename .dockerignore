@@ -1,0 +1,49 @@
+# Données et artefacts volumineux non nécessaires dans l'image
+data/
+mlartifacts/
+catboost_info/
+notebooks/
+
+# MLflow : on ne garde QUE le run référencé dans le Dockerfile
+# (le COPY explicite dans le Dockerfile s'en charge)
+mlruns/*
+!mlruns/894875891458910561/
+mlflow.db
+
+# Git
+.git/
+.gitignore
+.gitattributes
+.github/
+
+# DVC
+.dvc/
+.dvcignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Tests et docs
+tests/
+*.md
+
+# Claude / dev artifacts
+.claude/
+dev/
