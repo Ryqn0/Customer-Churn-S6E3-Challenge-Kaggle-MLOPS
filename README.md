@@ -212,7 +212,6 @@ gcloud run deploy customer-churn-api \
 
 On every push to `main`, GitHub Actions (`.github/workflows/ci.yml`) automatically builds and pushes the Docker image to Docker Hub.
 
-> **Next step:** Migrate CI to push directly to Artifact Registry and trigger an automatic Cloud Run deployment using Workload Identity Federation (no static credentials).
 
 ---
 
